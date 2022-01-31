@@ -88,14 +88,14 @@ i.ex-10-icon{
 }
 
 i.ex-11-icon:hover{
-	animation: 2s alternate ease-in clockwise;
+	animation: 2s linear clockwise;
 }
 
 @keyframes clockwise {
 	0%{
 		transform: rotate(0deg);
 	}
-	75%{
+	90%{
 		transform:rotate(300deg)
 	}
 	100%{
@@ -144,12 +144,12 @@ a.ex-13-button:hover div.ex-13-top-white{
 		left: 10%;
 		top: -10px;
 	}
-	35% {
-		left: calc(70% - 3px);
+	30% {
+		left: calc(100% - 3px);
 		top: -10px;
 	}
-	50% {
-		left: calc(70% - 3px);
+	45% {
+		left: calc(100% - 3px);
 		top: 100%;
 	}
 	75% {
@@ -157,7 +157,7 @@ a.ex-13-button:hover div.ex-13-top-white{
 		top: 100%;
 	}
 	90% {
-		left: -10px;
+		left: -15px;
 		top: -10px;
 	}
 	100% {
@@ -172,15 +172,15 @@ a.ex-13-button:hover div.ex-13-bottom-white{
 
 @keyframes x-flow-bottom {
 	0% {
-		right: 10%;
+		right: 20%;
 		bottom: -10px;
 	}
-	35% {
-		right: calc(70% - 3px);
+	30% {
+		right: calc(100% - 3px);
 		bottom: -10px;
 	}
-	50% {
-		right: calc(70% - 3px);
+	45% {
+		right: calc(100% - 3px);
 		bottom: 100%;
 	}
 	75% {
@@ -188,11 +188,11 @@ a.ex-13-button:hover div.ex-13-bottom-white{
 		bottom: 100%;
 	}
 	90% {
-		right:-10px;
+		right:-15px;
 		bottom: -10px;
 	}
 	100% {
-		right: 10px;
+		right: 20%;
 		bottom: -10px;
 	}
 }
